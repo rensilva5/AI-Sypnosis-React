@@ -1,31 +1,33 @@
-import React from "react";
-
-import { logo } from "../assets";
+// import { logo } from "../assets";
 
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
+        <img
+          src="/favicon.png"
+          alt="sypn_logo"
+          className="w-16 object-contain"
+        />
 
         <button
           type="button"
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://www.linkedin.com/in/renzo-silva/", "_blank")
           }
           className="black_btn"
         >
-          GitHub
+          Linkedin
         </button>
       </nav>
 
       <h1 className="head_text">
-        Summarize Articles with <br className="max-md:hidden" />
-        <span className="orange_gradient ">OpenAI GPT-4</span>
+        Sypnosis Articles with <br className="max-md:hidden" />
+        <span className="blue_gradient ">OpenAI GPT-3.5</span>
       </h1>
       <h2 className="desc">
-        Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+        Unlock Clarity with SypnoScan: Your Guide to Clear, Concise Summaries -
+        An Open-Source Article Sypnosis Solution
       </h2>
     </header>
   );

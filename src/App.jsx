@@ -2,6 +2,7 @@
 import Hero from "./components/Hero";
 import DisplayDemo from "./components/DisplayDemo";
 import "./App.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <div className="app">
         <Hero />
         <DisplayDemo />
+        <Footer/>
       </div>
     </main>
   );

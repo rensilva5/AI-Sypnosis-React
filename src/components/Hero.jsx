@@ -15,7 +15,7 @@ const Hero = () => {
           onClick={() =>
             window.open("https://www.linkedin.com/in/renzo-silva/", "_blank")
           }
-          className="black_btn"
+          className="blue-bg rounded-md"
         >
           Linkedin
         </button>
